@@ -10,7 +10,7 @@ function Confetti({ open }) {
   function generatePoints() {
     points = [];
 
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < count; i++) {
       points.push(<p className={`${open ? "animated" : ""}`} key={i} />);
     }
     return points;

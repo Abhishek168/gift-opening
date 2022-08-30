@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import Music from '../Sound'
 import './styles.css'
 
 const WelcomeCard = () => {
@@ -21,7 +20,6 @@ const WelcomeCard = () => {
 						</div>
 					</div>
 					<div className='cardInside'>
-						<Music />
 						<h3 className='back'>HAPPY BIRTHDAY Doolo!</h3>
 						<p>Dear Friend,</p>
 						<p>

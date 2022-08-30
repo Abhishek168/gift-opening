@@ -29,7 +29,7 @@ const GiftOpening = () => {
 					<div className='col-12 mt-5 d-flex justify-content-center'>
 						<div className='box'>
 							<div className='box-body'>
-								<img className='img' src='https://m.media-amazon.com/images/I/810Xa848VPL._AC_SX679_.jpg' />
+								<img className='img' src='https://m.media-amazon.com/images/I/810Xa848VPL._AC_SX679_.jpg' alt="new im g data"/>
 								<div className='box-lid'>
 									<div className='box-bowtie' />
 								</div>
@@ -46,7 +46,7 @@ const GiftOpening = () => {
 					<div className='col-12 mt-5 d-flex justify-content-center'>
 						<div className='box'>
 							<div className='box-body'>
-								<img className='img' height="346" width="743" src='https://m.media-amazon.com/images/I/51E1i8ZTp+L._AC_UY695_.jpg' />
+								<img className='img' alt="new im g data" height="346" width="743" src='https://m.media-amazon.com/images/I/51E1i8ZTp+L._AC_UY695_.jpg' />
 								<div className='box-lid'>
 									<div className='box-bowtie' />
 								</div>

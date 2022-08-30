@@ -13,6 +13,7 @@ const Music = () => {
 						audio.loop = true
 						audio.play()
 					}}
+					style={{ border: '0', background: 'pink' }}
 				>
 					<img src={audioImg} alt='audio immg' />
 				</button>
