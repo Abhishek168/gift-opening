@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import Music from '../Sound'
 import './styles.css'
 
 const WelcomeCard = () => {
@@ -20,16 +21,18 @@ const WelcomeCard = () => {
 						</div>
 					</div>
 					<div className='cardInside'>
+						<Music />
 						<h3 className='back'>HAPPY BIRTHDAY Doolo!</h3>
 						<p>Dear Friend,</p>
 						<p>
 							Happy birthday!! I hope your day is filled with lots of love and
 							laughter! May all of your birthday wishes come true.
 						</p>
-						<p className='name'>Pawan</p>
-						<div className=''>
+						<div className='mt-5'>
 							<Link to='cake'>
-								<button className=''>Click here 🎂</button>
+								<button className='mt-5 border-0'>
+									Wanna see your cake?🎂
+								</button>
 							</Link>
 						</div>
 					</div>

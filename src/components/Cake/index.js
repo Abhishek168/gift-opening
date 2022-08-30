@@ -19,16 +19,17 @@ const Cake = () => {
 						<div className='flame' />
 					</div>
 				</div>
-				<Link to='gifts'>
+				<Link to='jumpingGift'>
 					<p
 						style={{
 							color: 'white',
 							fontSize: '22px',
 							display: 'flex',
 							justifyContent: 'flex-end',
+							pointerEvents: 'none',
 						}}
 					>
-						Click here to blow the candle
+						Blow your candle click here<br />
 					</p>
 				</Link>
 			</div>
