@@ -12,7 +12,7 @@ const BirthdayCountDown = () => {
 					hour = minute * 60,
 					day = hour * 24
 
-				let birthday = 'Oct 26, 2022 00:00:00',
+				let birthday = 'Oct 26, 2021 00:00:00',
 					countDown = new Date(birthday).getTime(),
 					x = setInterval(() => {
 						let now = new Date().getTime(),
@@ -37,6 +37,8 @@ const BirthdayCountDown = () => {
 								content = document.getElementById('content')
 
 							headline.innerText = 'Happy Birthday!'
+							// headline.innerText =
+							// 	'Wishing you a day that is as special as you are!'
 							countdown.style.display = 'none'
 							content.style.display = 'block'
 
@@ -45,7 +47,14 @@ const BirthdayCountDown = () => {
 						//seconds
 					}, 0)
 			})()}
-			<div style={{ backgroundColor: 'pink', height: '100vh', width: '100vw' }}>
+			<div
+				style={{
+					backgroundColor: 'pink',
+					height: '100vh',
+					width: '100vw',
+					overflowY: 'hidden',
+				}}
+			>
 				<div className='container'>
 					<h1 id='headline'>Countdown to birthday</h1>
 					<div id='countdown'>

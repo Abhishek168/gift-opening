@@ -17,16 +17,30 @@ const WelcomeCard = () => {
 							<div className='balloonTwo' />
 							<div className='balloonThree' />
 							<div className='balloonFour' />
+							<div className='my-2 mx-5'>
+								<img
+									src='https://c.tenor.com/NUgGe4MQpPsAAAAi/wontae-hiper-rabbit.gif'
+									alt='rabbit HBD'
+									height='340px'
+								/>
+							</div>
 						</div>
 					</div>
 					<div className='cardInside'>
-						<h3 className='back'>HAPPY BIRTHDAY Doolo!</h3>
-						<p>Dear Friend,</p>
+						<h3 className='back'>Happy Birthday Bccha!</h3>
+						<p>Hey, Babloo Escobar 💗</p>
 						<p>
-							Happy birthday!! I hope your day is filled with lots of love and
-							laughter! May all of your birthday wishes come true.
+							Happy birthday to you, my beautiful one, my love. You are the most
+							beautiful golu Moluu Kidd in the world.
 						</p>
-						<div className='mt-5'>
+						<p>
+							With a sweet, loving, and understanding girlfriend like you,
+							long-distance relationships are much easier to handle.
+						</p>
+						<p>
+							Near or far, I’m really lucky to have you in my life, sweetie 💞.
+						</p>
+						<div className='mt-1'>
 							<Link to='cake'>
 								<button className='mt-5 border-0'>
 									Wanna see your cake?🎂
