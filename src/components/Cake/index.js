@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './styles.css'
+import image1 from '../../Assets/cartoonImages/img5.png'
 
 const Cake = () => {
 	return (
 		<>
 			<div className='cake-wrapper'>
+				<img src={image1} alt='image'></img>
 				<div className='cake'>
 					<div className='plate' />
 					<div className='layer layer-bottom' />
@@ -29,7 +31,8 @@ const Cake = () => {
 							pointerEvents: 'none',
 						}}
 					>
-						Blow your candle click here<br />
+						Blow your candle click here
+						<br />
 					</p>
 				</Link>
 			</div>
