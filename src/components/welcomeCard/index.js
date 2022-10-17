@@ -27,15 +27,15 @@ const WelcomeCard = () => {
 						</div>
 					</div>
 					<div className='cardInside'>
-						<h3 className='back'>Happy Birthday Bccha!</h3>
-						<p>Hey, Babloo Escobar 💗</p>
+						<h3 className='back'>Happy b'day Babloo Escobar 💗!</h3>
 						<p>
-							Happy birthday to you, my beautiful one, my love. You are the most
-							beautiful golu Moluu Kidd in the world.
+							Today I get to wish someone who has the most beautiful soul of
+							anybody I know a very happy birthday! . You are the most beautiful
+							golu Moluu Kidd in the world.
 						</p>
 						<p>
-							With a sweet, loving, and understanding girlfriend like you,
-							long-distance relationships are much easier to handle.
+							Wishing you the very happiest birthday with all my love and lots
+							of big kisses! 😘
 						</p>
 						<p>
 							Near or far, I’m really lucky to have you in my life, sweetie 💞.

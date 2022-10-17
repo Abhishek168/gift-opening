@@ -7,6 +7,21 @@ const Cake = () => {
 	return (
 		<>
 			<div className='cake-wrapper'>
+				{' '}
+				<Link to='jumpingGift'>
+					<p
+						style={{
+							color: 'red',
+							fontSize: '22px',
+							display: 'flex',
+							justifyContent: 'flex-end',
+							pointerEvents: 'none',
+						}}
+					>
+						<strong>Blow your candle click here</strong>
+						<br />
+					</p>
+				</Link>
 				<img src={image1} alt='image'></img>
 				<div className='cake'>
 					<div className='plate' />
@@ -21,20 +36,6 @@ const Cake = () => {
 						<div className='flame' />
 					</div>
 				</div>
-				<Link to='jumpingGift'>
-					<p
-						style={{
-							color: 'white',
-							fontSize: '22px',
-							display: 'flex',
-							justifyContent: 'flex-end',
-							pointerEvents: 'none',
-						}}
-					>
-						Blow your candle click here
-						<br />
-					</p>
-				</Link>
 			</div>
 		</>
 	)

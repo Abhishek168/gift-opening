@@ -56,11 +56,11 @@ export default function GiftBoxJumpingAnimation() {
 						alt='box-lid'
 					/>
 				</div>
-				<div style={{display:"flex",justifyContent:"end"}}>
+				<div style={{ display: 'flex', justifyContent: 'end' }}>
 					<Link to='gifts'>
 						<p
 							style={{
-								color: 'white',
+								color: 'green',
 								fontSize: '22px',
 								textDecoration: 'none',
 							}}

@@ -11,31 +11,79 @@ const MultipleImageGallery = () => {
 		const call = async () => {
 			const response = [
 				{
-					original: 'https://i.postimg.cc/BLSSgkCX/702639.jpg',
-					thumbnail: 'https://i.postimg.cc/BLSSgkCX/702639.jpg',
+					original: 'https://i.ibb.co/19j1JFV/bday10.jpg',
+					thumbnail: 'https://i.ibb.co/19j1JFV/bday10.jpg',
 				},
 				{
-					original: 'https://i.postimg.cc/8JmFkLZr/wp4758025.jpg',
-					thumbnail: 'https://i.postimg.cc/8JmFkLZr/wp4758025.jpg',
+					original: 'https://i.ibb.co/FzKx4mX/bday1.jpg',
+					thumbnail: 'https://i.ibb.co/FzKx4mX/bday1.jpg',
+				},
+				{
+					original: 'https://i.ibb.co/7zn9kk5/bday3.jpg',
+					thumbnail: 'https://i.ibb.co/7zn9kk5/bday3.jpg',
+				},
+				{
+					original: 'https://i.ibb.co/NLnFsr2/bday6.jpg',
+					thumbnail: 'https://i.ibb.co/NLnFsr2/bday6.jpg',
+				},
+				{
+					original: 'https://i.ibb.co/SP16RHK/bday4.jpg',
+					thumbnail: 'https://i.ibb.co/SP16RHK/bday4.jpg',
+				},
+				{
+					original: 'https://i.ibb.co/gdB6yVy/bday5.jpg',
+					thumbnail: 'https://i.ibb.co/gdB6yVy/bday5.jpg',
+				},
+				{
+					original: 'https://i.ibb.co/ZfDBv4D/bday2.jpg',
+					thumbnail: 'https://i.ibb.co/ZfDBv4D/bday2.jpg',
+				},
+				{
+					original: 'https://i.ibb.co/YfGv8Jd/bday7.jpg',
+					thumbnail: 'https://i.ibb.co/YfGv8Jd/bday7.jpg',
+				},
+				{
+					original: 'https://i.ibb.co/VVRxLzL/bdau8.jpg',
+					thumbnail: 'https://i.ibb.co/VVRxLzL/bdau8.jpg',
+				},
+				{
+					original: 'https://i.ibb.co/55R6RTZ/IMAGE1j-OIN1.jpg',
+					thumbnail: 'https://i.ibb.co/55R6RTZ/IMAGE1j-OIN1.jpg',
+				},
+				{
+					original: 'https://i.ibb.co/LC7T2GT/bday9.jpg',
+					thumbnail: 'https://i.ibb.co/LC7T2GT/bday9.jpg',
+				},
+				{
+					original: 'https://i.ibb.co/NysnGQW/IMAGE1j-OIN2.jpg',
+					thumbnail: 'https://i.ibb.co/NysnGQW/IMAGE1j-OIN2.jpg',
+				},
+				{
+					original: 'https://i.ibb.co/68Q8Jq4/bday11.jpg',
+					thumbnail: 'https://i.ibb.co/68Q8Jq4/bday11.jpg',
+				},
+				{
+					original: 'https://i.ibb.co/MVrk3Sh/bday12.jpg',
+					thumbnail: 'https://i.ibb.co/MVrk3Sh/bday12.jpg',
+				},
+				{
+					original: 'https://i.ibb.co/6JpB3R3/bday13.jpg',
+					thumbnail: 'https://i.ibb.co/6JpB3R3/bday13.jpg',
 				},
 			]
 			if (!shouldCancel && response.length && response) {
 				setImages(response)
 			}
-			// if (!shouldCancel && response.data && response.data.length > 0) {
-			// 	setImages(
-			// 		response.data.map((url) => ({
-			// 			original: `${url}=w1024`,
-			// 			thumbnail: `${url}=w100`,
-			// 		})),
-			// 	)
-			// }
 		}
 		call()
 		return () => (shouldCancel = true)
 	}, [])
 
-	return images ? <ImageGallery items={images} /> : null
+	return images ? (
+		<div className='imagegalley-top'>
+			<ImageGallery items={images} />{' '}
+		</div>
+	) : null
 }
 
 export default MultipleImageGallery

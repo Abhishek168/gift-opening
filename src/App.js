@@ -25,7 +25,7 @@ function App() {
 						element={<GiftOpening />}
 					></Route>
 					<Route path='/music' element={<Music />}></Route>
-					<Route path='/gallery' element={<MultipleImageGallery />}></Route>
+					<Route path='/card/cake/jumpingGift/gifts/gallery' element={<MultipleImageGallery />}></Route>
 				</Routes>
 			</BrowserRouter>
 		</>
