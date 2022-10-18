@@ -12,7 +12,7 @@ const BirthdayCountDown = () => {
 					hour = minute * 60,
 					day = hour * 24
 
-				let birthday = 'Oct 26, 2022 00:00:00',
+				let birthday = 'Oct 26, 2021 00:00:00',
 					countDown = new Date(birthday).getTime(),
 					x = setInterval(() => {
 						let now = new Date().getTime(),

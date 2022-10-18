@@ -42,7 +42,7 @@ const WelcomeCard = () => {
 						</p>
 						<div className='mt-1'>
 							<Link to='cake'>
-								<button className='mt-5 border-0'>
+								<button className='mt-4 border-0'>
 									Wanna see your cake?🎂
 								</button>
 							</Link>
